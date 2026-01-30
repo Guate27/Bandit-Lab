@@ -112,3 +112,17 @@ Explicación:
 
 Contraseña obtenida: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
+## Bandit Level 7
+
+Objetivo: Encontrar la contraseña del nivel 8 sabiendo que está al lado de una palabra conocida
+
+Comandos utilizados: 
+1. ls 
+2. grep -n "mensaje" archivo 
+
+Explicación:
+1. Se listaron todos los archivos
+2. Se buscó la palabra asociada a la contraseña del nivel 8
+3. Se encontró la contraseña del nivel 8
+ 
+			
