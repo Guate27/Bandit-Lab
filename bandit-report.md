@@ -61,4 +61,20 @@ Explicación:
 
 Contraseña obtenida: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
+## Bandit Level 4 
+Objetivo: Encontrar el archivo  que contiene la contraseña del nivel 4 dentro de un grupo de archivos sabiendo que el archivo con la contraseña solo contiene texto plano                                                      
+Comandos utilizados: 
+1. ls 
+2. cd
+3. file -- *
+4. cat 
+
+Explicación: 
+1. Se listaron todos los archivos no importando si estaban ocultos o visibles
+2. Se acccedió a una carpeta
+3. Se determinó el tipo de contenido de cada archivo en la carpeta 
+4. Se accedió al archivo que contenía texto plano 
+5: Se encontró la contraseña del nivel 5
+
+Contraseña obtenida: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
