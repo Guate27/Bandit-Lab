@@ -63,6 +63,7 @@ Contraseña obtenida: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 ## Bandit Level 4 
 Objetivo: Encontrar el archivo  que contiene la contraseña del nivel 4 dentro de un grupo de archivos sabiendo que el archivo con la contraseña solo contiene texto plano                                                      
+
 Comandos utilizados: 
 1. ls 
 2. cd
@@ -74,7 +75,40 @@ Explicación:
 2. Se acccedió a una carpeta
 3. Se determinó el tipo de contenido de cada archivo en la carpeta 
 4. Se accedió al archivo que contenía texto plano 
-5: Se encontró la contraseña del nivel 5
+5. Se encontró la contraseña del nivel 5
 
 Contraseña obtenida: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+## Bandit Level 5
+Objetivo: Encontrar la contraseña del nivel 6 en un archivo que tiene las siguientes características: Leíble, peso de 1033 bites y no ejecutable
+
+Comandos utilizados:
+1. ls
+2. cd
+3. find.
+4. cat
+
+Explicación:
+1. Se listaron todos los archivos
+2. Se aaccedió a una carpeta
+3. Se buscó un archivo que cumpliera las características que establecía el objetivo
+4. Se revisó el contenido del archivo encontrado 
+5. Se encontró la contraseña del nivel 6
+Contraseña obtenida: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Bandit Level 6
+Objetivo: Encontrar la contraseña del nivel 7 en un archivo que tiene las siguientes características: owned by user bandit7, owned by group bandit6 33 bytes in size
+
+Comandos utilizados:
+1. ls -a
+2. find /
+3. cat
+
+Explicación:
+1. Se listaron todos los archivos
+2. Se buscó un archivo que cumpliera las características que establecía el objetivo 
+3. Se revisó el contenido del archivo encontrado
+4. Se encontró la contraseña del nivel 7
+
+Contraseña obtenida: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
