@@ -128,7 +128,7 @@ Explicación:
 Contraseña obtenida: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 			
 ## Bandit Level 8  
-Objetivo: Encontrar la contraseña del nivel 8 sabiendo que es la única línea texto que no se repite en un archivo  
+Objetivo: Encontrar la contraseña del nivel 9 sabiendo que es la única línea texto que no se repite en un archivo  
                                         
 Comandos utilizados:
 1. ls
@@ -141,6 +141,14 @@ Explicación:
 
 Contraseña obtenida: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-                                                                  
+## Bandit Level 9
+Objetivos: Encontrar la contraseña del nivel 10 sabiendo que es el único contenido de texto plano de un archivo y que está precedido por el caractér "="
+
+Comandos utilizados:
+1. ls
+2. strings archivo | grep "texto"
+
+Contraseña: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+                                                                 
 
 
