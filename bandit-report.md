@@ -155,7 +155,7 @@ Explicación:
 3. Se buscó la línea con el caractér "="
 4. Se encontró la contraseña del nivel 10
                                         
-Contraseña: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+Contraseña obtenida: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 ## Bandit Level 10 
 Objetivo:  Encontrar la contraseña del nivel 11 analizando el contenido de un archivo codificado
@@ -172,6 +172,9 @@ Explicación:
 3. Se accedió al contenido del archivo
 4. Se decodifico el contenido del archivo 
 5. Se encontró la contraseña del nivel 11
+
+Contraseña obtenida: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr  
+
                 
                                                                                             
         
