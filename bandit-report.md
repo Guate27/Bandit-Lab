@@ -125,4 +125,22 @@ Explicación:
 2. Se buscó la palabra asociada a la contraseña del nivel 8
 3. Se encontró la contraseña del nivel 8
  
+Contraseña obtenida: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 			
+## Bandit Level 8  
+Objetivo: Encontrar la contraseña del nivel 8 sabiendo que es la única línea texto que no se repite en un archivo  
+                                        
+Comandos utilizados:
+1. ls
+2. sort archivo | uniq -u
+
+Explicación:
+1. Se listaron todos los archivos
+2. Se ordenaron las líneas del único archivo existente
+3. Se filtraron las líneas del archivo dejando unicamente las queno se repetían
+
+Contraseña obtenida: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+                                                                  
+
+
