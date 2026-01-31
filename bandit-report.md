@@ -137,7 +137,8 @@ Comandos utilizados:
 Explicación:
 1. Se listaron todos los archivos
 2. Se ordenaron las líneas del único archivo existente
-3. Se filtraron las líneas del archivo dejando unicamente las queno se repetían
+3. Se filtraron las líneas del archivo dejando unicamente las que no se repetían
+4. Se encontró la contraseña del nivel 9
 
 Contraseña obtenida: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
@@ -148,7 +149,31 @@ Comandos utilizados:
 1. ls
 2. strings archivo | grep "texto"
 
+Explicación:
+1. Se listaron todos los archivos
+2. Se filtró y accedió al contenido del archivo que era texto plano
+3. Se buscó la línea con el caractér "="
+4. Se encontró la contraseña del nivel 10
+                                        
 Contraseña: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-                                                                 
+
+## Bandit Level 10 
+Objetivo:  Encontrar la contraseña del nivel 11 analizando el contenido de un archivo codificado
+
+Comandos utilizados:
+1. ls 
+2. file archivo
+3. cat
+4. base64 -d archivo
+
+Explicación:
+1. Se listaron todos los archivos
+2. Se determinó el tipo de contenido del archivo
+3. Se accedió al contenido del archivo
+4. Se decodifico el contenido del archivo 
+5. Se encontró la contraseña del nivel 11
+                
+                                                                                            
+        
 
 
